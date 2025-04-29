@@ -790,9 +790,8 @@ margin: auto;
                            /* footer section */
 
 .footer{
-  
-  background-color: white;
-  padding: 100px 176px;
+ 
+   padding: 100px 176px; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 20px;
@@ -877,9 +876,7 @@ transition: all 0.4s ease-in;
 }
                           /* footer section */
 
-.history{
-
-  background-color: white;
+.history{ 
   padding: 20px 176px;
   border-top: lightgray 1px solid;
   .p1{
@@ -1010,8 +1007,8 @@ transition: all 0.4s ease-in;
       width: 180px;
     }
     .hero-img .bg img{
-      height: 570px;
-      width: 570px;   
+      height: 550px;
+      width: 550px;   
     }
   }
 
@@ -1041,7 +1038,7 @@ transition: all 0.4s ease-in;
     }
   }
  
- .grid{
+  .grid{
   grid-template-columns: 1fr;
   justify-items: center;
   margin-left: 100px;
@@ -1049,7 +1046,7 @@ transition: all 0.4s ease-in;
     width: 440px;
     height: 430px;
   }
- }
+ } 
  .card-content{
   h2{
     font-size: 40px;
@@ -1155,10 +1152,139 @@ justify-content: center;
   .sidebar{
     display: flex;
   }
+  .left-nav li{
+    display: none;
+  }
+  .right-nav{
+    display: none;
+  }
+  .sidebar{
+    display: flex;
+  }
+  .security{
+    display: flex;
+    flex-direction: column;
+    img{
+      height: 110px;
+    }
+    h2{
+      margin-top: 25px;
+      text-align: center;
+      font-size: 28px;
+    }
+    p{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+      width:700px;
+    }
+    h4{
+      margin-top: 25px;
+      text-align: center;
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+
+  .card-content{
+    padding: 20px 30px;
+    h2{
+    
+      font-size: 36px;
+    }
+    p{
+      text-align: center;
+      font-size: 20px;
+    }
+    .label{
+      font-size: 18px;
+    }
+   
+  }
+  .grid{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-left: 10px;
+    .card-grid,.card-grid1,.card-grid2,.card-grid3,.card-grid4,.card-grid5{
+      width: 450px;
+      height: 400px;
+      .phone{
+        height: 220px;
+      }
+    }
+   }
+   .invest-mockup{
+  
+    width: 750px;
+    margin-left: 140px;
+    h1{
+      margin-top: 50px;
+      padding :0px 30px;
+      text-align: center;
+      font-size: 40px;
+    }
+      p{
+        padding :0px 30px;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 20px;
+        margin-left: 100px;
+        width: 500px;
+
+      }
+      h3{
+        margin-right:80px;
+        font-size: 16px;
+        margin-top: 20px;
+       text-align: center;
+      }
+      img{
+        height: 400px;
+        margin-top: -70px;
+      margin-left: 180px;     
+}
+}
+.save-text{
+  
+  h1{
+  width: max-content;
+  margin-left: 100px;
+  }
+  p{
+    text-align: center;
+  
+   
+  }
+}
+iframe{
+  margin-left:150px;
+  width: 700px;
+  height: 500px;
+}
+
+.testimonials{
+  display: flex;
+  flex-direction: column-reverse;
+ 
+ h1{
+  text-align: center;
+  width: 500px;
+ }
+ .test-btn{
+  margin-left: 90px; 
+  margin-bottom: 40px;
+ }
+}
  }
 
-  @media (min-width:450px) and (max-width:980px) {
-    .nav{
+  @media  (max-width:750px) {
+   
+    .nav{ 
       padding:40px 30px;
       .nav-logo img{
         height:50px ;
@@ -1182,8 +1308,9 @@ justify-content: center;
       }
     }
     h1{
-      font-size: 70px;
-      width: fit-content;
+      font-size: 4.1rem;
+      margin-left: -50px;
+      width: 800px;
     }
     p{
       font-size: 27px;
@@ -1244,42 +1371,46 @@ justify-content: center;
     }
   }
 
-  .security{
+   .security{
     display: flex;
     flex-direction: column;
+    margin-left: 130px;
     img{
-      height: 150px;
+      height: 135px;
     }
     h2{
       margin-top: 20px;
       text-align: center;
       font-size: 35px;
+      margin-left: 50px;
+      
     }
     p{
       margin-top: 15px;
       text-align: center;
       font-size: 22px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.5;
-      width: fit-content;
+      width:800px;
+      margin-left: 30px;
     }
     h4{
       margin-top: 20px;
       text-align: center;
       font-size: 22px;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left:auto;
+     
     }
-  }
+  } 
 
   .card-text{
     h1{
       font-size: 65px;
-      width:fit-content;
+      width:800px;
+      margin-left: -90px;
     }
     p{
-      font-size: 35px;
+      font-size: 30px;
+      width: 1000px;
+      margin-left: -180px;
     }
   }
   .card-content{
@@ -1291,6 +1422,7 @@ justify-content: center;
     p{
       text-align: center;
       font-size: 26px;
+      width: 250px;
     }
     .label{
       font-size: 22px;
@@ -1300,7 +1432,7 @@ justify-content: center;
   .grid{
     grid-template-columns: 1fr;
     justify-items: center;
-    margin-left: 10px;
+    margin-left: -25px;
     .card-grid,.card-grid1,.card-grid2,.card-grid3,.card-grid4,.card-grid5{
       width: 620px;
       height: 550px;
@@ -1308,11 +1440,11 @@ justify-content: center;
         height: 320px;
       }
     }
-   }
+   } 
 
-   .invest-text{
+    .invest-text{
     padding: 0px 0px;
-    margin-left: 170px;
+    margin-left: 200px;
     h1{
      
       font-size: 60px;
@@ -1325,8 +1457,8 @@ justify-content: center;
    }
    .invest-mockup{
   
-    width: 85%;
-    margin-left: 100px;
+    width: 95%;
+    margin-left:120px;
     h1{
       margin-top: 50px;
       padding :0px 30px;
@@ -1338,7 +1470,7 @@ justify-content: center;
         text-align: center;
         line-height: 1.4;
         font-size: 27px;
-        margin-left: -30px;
+        margin-left: 80px;
       }
       h3{
         font-size: 18px;
@@ -1346,69 +1478,421 @@ justify-content: center;
        text-align: center;
       }
       img{
-        height: 550px;
+        height: 500px;
         margin-top: -70px;
-      margin-left: 150px;     
+      margin-left: 100px;     
 }
-}
-.save-text{
+ } 
+ .save-text{
   margin-left: 35px;
   h1{
     font-size: 60px;
+    width: 700px;
   }
   p{
-    text-align: center;
+     text-align: center; 
     font-size: 32px;
+    width:850px;
+
   }
-}
+} 
 
-iframe{
+ iframe{
   margin-left: 80px;
-  width: 850px;
+  width: 800px;
   height: 600px;
-}
+} 
 
-.testimonials{
+ .testimonials{
   display: flex;
   flex-direction: column-reverse;
+  margin-left: 200px;
+   img{
+    height: 650px;
+   }
   h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     width: 700px;
   }
   .test-btn{
     margin-left: 150px;
-    img{
-      margin-top: 0px;
-    }
+   
     button{
       font-size: 22px;
       height: 60px;
       width: 190px;
-  }
-  }
+  } 
   img{
-    margin-top: 70px;
+  
     height: 750px;
   }
 }
-
+ }
+ .partners{
+ 
+  h1{
+    margin-left: 90px;
+    font-size: 40px;
+    margin-bottom: 30px;
+ }
+ }
 .company{
   display: flex;
   flex-wrap: wrap;
  justify-content: center;
+ margin-left: 80px;
  }
 
  .foooter{
  display: flex;
  flex-direction: column;
- }
- }
-
-
+ margin: 0px;
  
-            /* THIS IS WHERE MY MEDIA QUERY STOPPED WORKING 
-            ,ITS NOT  WORKING FOR SMALLER SCREEN SIZE */
+ }
+ .foot-nav{
+  h4{
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  ul{
+    font-size: 20px;
+  }
+ }
+  }
+@media (min-width:750px) and (max-width:900px) {
+  .invest-mockup{
+   margin-left: 50px;
+  }
+  iframe{
+    margin-left: 50px;
+  }
+}
+  @media  (max-width:450px) {
+   
+    .nav{ 
+      padding:40px 30px;
+      .nav-logo img{
+        height:70px ;
+      }
+      .sidebar img{
+        height: 90px;
+        width: auto;
+      }
+    }
+  
+    .hero {
+      margin-top: 100px;
+      margin-left: -70px;
+    .blue-border{
+      font-size: 30px;
+      font-weight: 600; 
+      width:600px;
+      height: 100px;
+      img{
+      height:60px;
+      width: 60px;
+      margin-right: 8px;
+      }
+    }
+    h1{
+      font-size: 6rem;
+      margin-left: -50px;
+      width: 800px;
+      text-align: center;
+    }
+    p{
+      font-size: 35px;
+      width: 1000px;
+      line-height: 2;
+    }
+    button{
+      font-weight: 600;
+      font-size: 35px;
+      height: 100px;
+      width: 350px;
+    }
+    .hero-btn {
+        img{
+          height: 200px;
+        }
+    }
+    .hero-img .bg img{
+      height: 850px;
+      width: 850px;   
+    }
+    .bg1 img{
+      width: 300px;
+      height: 90px;
+      position: absolute;
+      bottom: 670px;
+      left: -70px;
+    }
+    .bg2 img{
+      width: 290px;
+      height: 110px;
+      position:absolute;
+      bottom: 670px;
+      right: -50px;
+    }
+    .bg3 img{
+      width: 300px;
+      height: 110px;
+      position: absolute;
+      bottom: 400px;
+      left: -70px;
+    }
+    .bg4 img{
+      width: 300px;
+      height: 100px;
+      position: absolute;
+      bottom: 380px;
+      right: -50px;
+    }
+    .bg5 img{
+      width: 250px;
+      height: 87px;
+      position: absolute;
+      bottom: 150px;
+      left: -70px;
+    }
+    .bg6 img{
+      width: 300px;
+      height: 110px;
+      position: relative;
+      bottom: 80px;
+      right: -400px;
+    }
+  }
 
+   .security{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+  
+    img{
+      height:230px;
+    }
+    h2{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 68px;
+      width: max-content;
+      margin-left: 30px;
+      
+    }
+    p{
+      margin-top: 15px;
+      text-align: center;
+      font-size: 35px;
+      width:900px;
+      margin-left: 30px;
+    }
+    h4{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 35px;
+      margin-left:auto;
+     
+    }
+  } 
+
+
+  .card-text{
+    h1{
+      font-size: 70px;
+      width:800px;
+      margin-left: -90px;
+    }
+    p{
+      font-size: 35px;
+      width: 1000px;
+      margin-left: -180px;
+      line-height: 1.5;
+    }
+  }
+  .card-content{
+    padding: 20px 30px;
+    h2{
+      
+      font-size: 70px;
+      text-align: center;
+    }
+    p{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 35px;
+      width:fit-content;
+      line-height: 2;
+    }
+    .label{
+      font-size: 22px;
+    }
+   
+  }
+  .grid{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-left: -65px;
+    .card-grid,.card-grid1,.card-grid2,.card-grid3,.card-grid4,.card-grid5{
+      width: 750px;
+      height: 850px;
+      border-radius: 40px;
+      .phone{
+        height: 380px;
+      }
+    }
+   } 
+
+    .invest-text{
+    padding: 0px 0px;
+    margin-left: 100px;
+    h1{
+      font-size: 70px;
+      width: 800px;
+    }
+    p{
+      font-size: 40px;
+      margin-left: 0px;
+      width: 800px;
+    }
+   }
+   .invest-mockup{
+  
+    width: 890px;
+    margin-left:90px;
+    h1{
+      margin-top: 50px;
+      padding :0px 30px;
+      text-align: center;
+      font-size: 70px;
+    }
+      p{
+        padding :0px 30px;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 40px;
+        width: 800px;
+        margin-left: 0px;
+      }
+      h3{
+        font-size: 35px;
+        margin-top: 20px;
+       text-align: center;
+      }
+      img{
+        height: 700px;
+        margin-top: -70px;
+      margin-left: 80px;     
+}
+ } 
+ .save-text{
+  margin-left: -50px;
+  
+  h1{
+  
+    font-size: 65px;
+    width: max-content;
+  }
+  p{
+     text-align: center; 
+    font-size: 40px;
+    width:850px;
+    margin-left: 100px;
+    line-height: 2;
+
+  }
+} 
+
+ iframe{
+  margin-left: 45px;
+  width: 900px;
+  height:1000px;
+  border-radius: 40px;
+
+} 
+
+ .testimonials{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left:450px;
+   img{
+    height: 900px;
+   }
+  h1{
+    text-align: center;
+    font-size: 70px;
+    width: 900px;
+    
+  }
+  .test-btn{
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+    img{
+      width: 50px;
+      margin-right: 10px;
+    }
+    button{
+      font-size: 35px;
+      height:100px;
+      width: 330px;
+  } 
+  img{
+  
+    height:350px;
+  }
+}
+ }
+ .partners{
+ 
+  h1{
+    margin-left: 190px;
+    font-size: 70px;
+    margin-bottom: 40px;
+    width: max-content;
+ }
+ }
+.company{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+ 
+ margin-left: 400px;
+ margin-top: 30px;
+ }
+
+ .foooter{
+ display: flex;
+ flex-direction: column;
+ margin: 0px;
+ 
+ }
+ .foot-nav{
+  h4{
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  ul{
+    font-size: 30px;
+  }
+ }
+  }
+
+  @media (min-width:451px) and (max-width:690px){
+    .invest-mockup{
+      width: 700px;
+    }
+    .security{
+      margin-left: 400px;
+    }
+  }
+
+@media (min-width:100px) {
+  .label{
+    display: none;
+  }
+}
+ 
+           
 
 
