@@ -1549,6 +1549,7 @@ iframe{
  flex-direction: column;
  margin: 0px;
  
+<<<<<<< HEAD
  }
  .foot-nav{
   h4{
@@ -1696,6 +1697,10 @@ iframe{
      
     }
   } 
+=======
+            /* THIS IS WHERE MY MEDIA QUERY STOPPED WORKING 
+            ,ITS NOT  WORKING FOR SMALLER SCREEN SIZE SO I REMOVED IT */
+>>>>>>> ac1d6ae9a192f99ead8cc12538cf2e2618261c0f
 
 
   .card-text{
